@@ -1,0 +1,420 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #bf7506;
+    margin-left: 24px;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.nav-link.active {
+    font-weight: 700;
+}
+
+.container {
+    max-width: 870px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 70px 0;
+}
+
+.header-text {
+    margin-left: 27px;
+}
+
+.header-strong {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+}
+
+.header-heading {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 135%;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.header-primary {
+    color: #bf7506;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+}
+
+.social-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.social-link {
+    display: inline-block;
+    padding: 8px;
+}
+
+.cv-download {
+    display: flex;
+    align-items: center;
+    padding: 7px 8px;
+    margin-left: 55px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #211b12;
+    border-bottom: 2px solid #bf7506;
+}
+
+.cv-icon {
+    margin-right: 4px;
+}
+
+.section-heading {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+    color: #bf7506;
+}
+
+.cards {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.card {
+    max-width: 400px;
+    margin-bottom: 40px;
+}
+
+.card-image {
+    max-width: 100%;
+}
+
+.card-text-wrapper {
+    padding: 16px;
+}
+
+.card-title {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 135%;
+    color: #bf7506;
+}
+
+.tags {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.tag {
+    text-decoration: none;
+    padding: 4px 8px;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 150%;
+    color: #211b12;
+    background: #fff;
+    border: 1px solid #dd9c3c;
+    border-radius: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 150%;
+    color: #211b12;
+}
+
+.card-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.card-button {
+    display: flex;
+    align-items: center;
+    padding: 7px 8px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #211b12;
+    border-bottom: 2px solid #bf7506;
+    margin-right: 25px;
+}
+
+.card-button-icon {
+    margin-right: 4px;
+}
+
+.developer {
+    display: flex;
+    align-items: center;
+    padding: 80px 0 20px;
+}
+
+.developer-photo {
+    width: 360px;
+    height: 440px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.developer-about {
+    margin-left: 55px;
+}
+
+.developer-hello {
+    font-size: 24px;
+    line-height: 135%;
+    color: #211b12;
+}
+
+.developer-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 125%;
+    color: #bf7506;
+    margin-top: 4px;
+    margin-bottom: 16px;
+}
+
+.developer-text {
+    font-size: 16px;
+    line-height: 150%;
+    color: #211b12;
+}
+
+.motto {
+    font-size: 24px;
+    line-height: 150%;
+    color: #dd9c3c;
+    margin: 16px 0;
+}
+
+.developer-sign {
+    max-width: 200px;
+}
+
+.skills {
+    padding: 20px 0;
+}
+
+.skills-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 135%;
+    color: #211b12;
+}
+
+.feedback {
+    position: relative;
+    padding: 80px 0 160px;
+}
+
+.feedback-hand {
+    position: absolute;
+    right: 0;
+    top: 20%;
+    width: 25%;
+}
+
+.input-group {
+    position: relative;
+    padding-top: 9px;
+    margin-bottom: 24px;
+}
+
+.input-label {
+    position: absolute;
+    top: 0;
+    left: 16px;
+    font-size: 16px;
+    line-height: 150%;
+    color: #83807c;
+    padding: 0 8px;
+    background: #fff;
+}
+
+.input {
+    border: 3px solid #e0dedc;
+    border-radius: 4px;
+    width: 100%;
+    height: 56px;
+}
+
+.textarea {
+    min-height: 140px;
+}
+
+.form-container {
+    max-width: 435px;
+    margin: auto;
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.submit-button {
+    display: flex;
+    align-items: center;
+    padding: 7px 8px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #211b12;
+    border: none;
+    border-bottom: 2px solid #bf7506;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 760px;
+    }
+
+    .card {
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 790px) {
+    .container {
+        max-width: 576px;
+    }
+
+    .header-photo {
+        max-width: 150px;
+    }
+
+    .header-strong {
+        font-size: 36px;
+    }
+
+    .header-heading {
+        font-size: 18px;
+    }
+
+    .cv-download {
+        margin-left: 15px;
+    }
+
+    .card {
+        max-width: 45%;
+    }
+
+    .card-text-wrapper {
+        padding: 8px 0;
+    }
+
+    .developer {
+        flex-direction: column;
+    }
+
+    .developer-photo {
+        width: 100%;
+        height: 350px;
+        margin-bottom: 30px;
+    }
+
+    .developer-about {
+        margin-left: 0;
+        padding-left: 20px;
+    }
+
+    .feedback-hand {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        padding-top: 40px;
+    }
+
+    .header {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .header-links,
+    .cards {
+        flex-direction: column;
+    }
+
+    .cv-download {
+        margin-left: 0;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+
+    .tags {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 480px) {
+    .form-container {
+        width: 90%;
+    }
+
+    .nav-list {
+        flex-direction: column;
+    }
+
+    .nav-link {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}
